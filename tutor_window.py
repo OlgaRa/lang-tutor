@@ -13,7 +13,7 @@ class Example(QtGui.QMainWindow):
         word = QtGui.QLabel('Word:', self)
         word.move(20, 60)
 
-        translation = QtGui.QLabel('Transcription:', self)
+        translation = QtGui.QLabel('Translation:', self)
         translation.move(20, 80)
 
         example = QtGui.QLabel('Example:', self)

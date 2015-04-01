@@ -6,4 +6,4 @@ For now PyQt GUI is planned
 TODO:
 * List words
 * Editing (CRUD)
-* Learning exercises
+* Learning exercises 

@@ -128,6 +128,10 @@ def learn_word(massiv):
         print("К сожалению, это не так, правильный перевод:", random_card.translation)
         random_card.correct_answer_count -= 1
 
+def find_card_by_word(cards_to_search, word):
+    for card in cards_to_search:
+        if card.word == word:
+            return card
 
 if __name__ == "__main__":
 
